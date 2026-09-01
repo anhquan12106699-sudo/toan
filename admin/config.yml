@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: TEN-USER/TEN-REPO   # ⚠️ Đổi thành "tai-khoan-github/ten-repo" của bạn
+  branch: main
+  base_url: https://api.netlify.com   # Cho phép đăng nhập qua Netlify (không cần Google)
+  auth_endpoint: auth
+
+# Nơi lưu ảnh khi upload từ trang quản trị
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "thong_bao"
+    label: "Thông báo"
+    files:
+      - file: "content/thong-bao.json"
+        label: "Danh sách thông báo"
+        name: "thong_bao_list"
+        fields:
+          - { label: "Danh sách", name: "items", widget: "list", summary: "{{title}}", fields:
+              - { label: "Ngày (vd 28/08/2026)", name: "date", widget: "string" }
+              - { label: "Tiêu đề", name: "title", widget: "string" }
+              - { label: "Nội dung", name: "body", widget: "text" }
+              - { label: "Nhãn (vd: Quan trọng, Học bổng...)", name: "tag", widget: "string", required: false }
+              - { label: "Kiểu nhãn", name: "tagType", widget: "select", required: false, options: ["", "urgent", "info"] }
+              - { label: "Ảnh (không bắt buộc)", name: "image", widget: "image", required: false }
+            }
+
+  - name: "tin_nganh"
+    label: "Tin tức ngành"
+    files:
+      - file: "content/tin-nganh.json"
+        label: "Danh sách tin tức"
+        name: "tin_nganh_list"
+        fields:
+          - { label: "Danh sách", name: "items", widget: "list", summary: "{{title}}", fields:
+              - { label: "Ngày (vd 12 Th8 2026)", name: "date", widget: "string" }
+              - { label: "Nhãn nổi bật (vd: Sự kiện, Tuyển sinh...)", name: "badge", widget: "string" }
+              - { label: "Danh mục nhỏ (vd: Hoạt động, Ngành...)", name: "category", widget: "string", required: false }
+              - { label: "Tiêu đề", name: "title", widget: "string" }
+              - { label: "Nội dung tóm tắt", name: "body", widget: "text" }
+              - { label: "Ảnh bài viết", name: "image", widget: "image", required: false }
+            }

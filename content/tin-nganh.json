@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "date": "12 Th8 2026",
+      "badge": "Sự kiện",
+      "category": "Hoạt động",
+      "title": "Workshop “Toán trong tài chính định lượng” thu hút hơn 120 sinh viên",
+      "body": "Buổi workshop do ngành Toán kinh tế tổ chức giúp sinh viên tiếp cận mô hình định giá và quản trị rủi ro.",
+      "image": ""
+    },
+    {
+      "date": "05 Th8 2026",
+      "badge": "Thành tích",
+      "category": "Sinh viên",
+      "title": "Sinh viên Toán kinh tế đạt giải Nhì cuộc thi phân tích dữ liệu tài chính",
+      "body": "Đội thi của ngành xuất sắc vượt qua nhiều vòng loại với đề tài dự báo biến động thị trường.",
+      "image": ""
+    },
+    {
+      "date": "28 Th7 2026",
+      "badge": "Tuyển sinh",
+      "category": "Ngành",
+      "title": "Ngành Toán kinh tế tăng chỉ tiêu tuyển sinh lên 150 năm 2026",
+      "body": "Sau khóa đầu tiên thành công, ngành tiếp tục mở rộng quy mô đào tạo hai chuyên ngành trọng điểm.",
+      "image": ""
+    },
+    {
+      "date": "18 Th7 2026",
+      "badge": "Hợp tác",
+      "category": "Đối ngoại",
+      "title": "Ký kết hợp tác với doanh nghiệp fintech về thực tập và đồ án",
+      "body": "Sinh viên được tiếp cận dữ liệu thực tế và mentorship từ chuyên gia phân tích định lượng.",
+      "image": ""
+    },
+    {
+      "date": "10 Th7 2026",
+      "badge": "CLB",
+      "category": "Câu lạc bộ",
+      "title": "CLB Toán Kinh tế ra mắt bộ nhận diện và lịch sinh hoạt học kỳ mới",
+      "body": "Chuỗi hoạt động học thuật – kết nối giúp sinh viên rèn tư duy định lượng và kỹ năng mềm.",
+      "image": ""
+    },
+    {
+      "date": "01 Th7 2026",
+      "badge": "Đào tạo",
+      "category": "Chương trình",
+      "title": "Cập nhật đề cương chuyên ngành Toán tài chính & Thống kê ứng dụng",
+      "body": "Chương trình bổ sung học phần liên quan dữ liệu lớn và máy học trong tài chính.",
+      "image": ""
+    }
+  ]
+}

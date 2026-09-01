@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "date": "28/08/2026",
+      "title": "Thông báo lịch đăng ký học phần học kỳ I năm học 2026–2027",
+      "body": "Sinh viên ngành Toán kinh tế lưu ý thời gian, điều kiện và hướng dẫn đăng ký học phần trên hệ thống.",
+      "tag": "Quan trọng",
+      "tagType": "urgent",
+      "image": ""
+    },
+    {
+      "date": "15/08/2026",
+      "title": "Thông báo xét học bổng khuyến khích học tập học kỳ II",
+      "body": "Công bố điều kiện, hồ sơ và thời hạn nộp đơn xét học bổng dành cho sinh viên ngành.",
+      "tag": "Học bổng",
+      "tagType": "info",
+      "image": ""
+    },
+    {
+      "date": "02/08/2026",
+      "title": "Thông báo lịch thi kết thúc học phần – đợt bổ sung",
+      "body": "Danh sách phòng thi, ca thi và quy định mang theo giấy tờ khi dự thi.",
+      "tag": "Thi cử",
+      "tagType": "",
+      "image": ""
+    },
+    {
+      "date": "20/07/2026",
+      "title": "Thông báo tổ chức sinh hoạt công dân đầu khóa dành cho tân sinh viên",
+      "body": "Thời gian, địa điểm và nội dung chương trình sinh hoạt công dân đầu khóa năm 2026.",
+      "tag": "Sự kiện",
+      "tagType": "info",
+      "image": ""
+    }
+  ]
+}
