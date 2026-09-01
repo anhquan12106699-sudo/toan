@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: TEN-USER/TEN-REPO   # ⚠️ Đổi thành "tai-khoan-github/ten-repo" của bạn
+  repo: nguyenanhquan/toan-kinh-te-web  
   branch: main
-  base_url: https://api.netlify.com   # Cho phép đăng nhập qua Netlify (không cần Google)
+  base_url: https://api.netlify.com 
   auth_endpoint: auth
 
 # Nơi lưu ảnh khi upload từ trang quản trị
